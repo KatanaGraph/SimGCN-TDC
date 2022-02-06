@@ -95,7 +95,6 @@ def main(args):
     args = parse_args(args)    
     args['trial_path'] = os.path.join(args['out_path'], args['dataset'], 
                                       args['sim_gnn'])
-    args['verbose'] = True
     utils.print_exp_settings(args)
 
     run_tdc_exp(args)

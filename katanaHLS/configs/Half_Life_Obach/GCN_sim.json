@@ -1,5 +1,5 @@
 {
-  "sim_gnn_batch_size": 512,
+  "sim_gnn_batch_size": 256,
   "sim_gnn_dropout": 0.2,
   "sim_gnn_hidden_channels": 256,
   "sim_gnn_lr": 0.001,
