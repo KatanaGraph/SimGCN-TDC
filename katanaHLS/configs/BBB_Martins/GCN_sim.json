@@ -1,0 +1,12 @@
+{
+  "sim_gnn_batch_size": 512,
+  "sim_gnn_batchnorm": true,
+  "sim_gnn_dropout": 0.1,
+  "sim_gnn_hidden_channels": 256,
+  "sim_gnn_lr": 0.001,
+  "sim_gnn_num_layers": 3,
+  "sim_gnn_patience": 45,
+  "sim_gnn_predictor_hidden_feats": 1024,
+  "sim_gnn_residual": true,
+  "sim_gnn_weight_decay": 0.001
+}
