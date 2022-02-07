@@ -3,7 +3,14 @@ This repo contains gnn pipeline for submission to TDC benchmark challenge.
 
 # Installations 
 
-Use conda to install all the required dependencies. 
+Use conda to install all the required dependencies. To install conda, follows these steps.
+
+```
+curl -LO https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+
+Use the `env.yml` file to populate the environment as follows. 
 
 ```
 conda env create -f env.yml
