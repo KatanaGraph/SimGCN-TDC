@@ -16,13 +16,13 @@ Note that you need to ensure pyg version is 2.0.2. The results might not be repr
 
 # Results
 
-The results are summarized in the Table below.
+The results are summarized in the Table below. Also refer to the report for more details. 
 
 ![Alt text](results.png?raw=true "Title")
 
 # Reproducibility Instructions
 
-To reproduce the results for a specific dataset, use the following script.
+We conducted all our experiments in AWS `c5.12xlarge` instances (CPU only). To reproduce the results for a specific dataset, use the following script.
 
 ```
 python run.py --dataset hERG --verbose False
